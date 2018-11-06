@@ -1,0 +1,27 @@
+.content-skills{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.skills-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skills{
+    flex: 50%;
+    margin:auto;
+}
+.skills p{
+    position: relative;
+    top:65px;
+    right: 200px;
+}
+
+.html{ background-color: blueviolet; width: 80%; text-align: right;}
+.css{ background-color: blueviolet; width: 80%; text-align: right;}
+.js{ background-color: blueviolet; width: 80%; text-align: right;}
+.php{ background-color: blueviolet; width: 80%; text-align: right;}
+.mysql{ background-color: blueviolet; width: 80%; text-align: right;}
+.mongodb{ background-color: blueviolet; width: 80%; text-align: right;}
+.sql{ background-color: blueviolet; width: 80%; text-align: right;}
+.nodejs{ background-color: blueviolet; width: 80%; text-align: right;}
